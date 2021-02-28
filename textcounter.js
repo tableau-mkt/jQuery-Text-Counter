@@ -40,7 +40,7 @@
             base.$el.after(base.$container);
 
             // bind input events
-            base.$el.bind('keyup.textcounter click.textcounter blur.textcounter focus.textcounter change.textcounter paste.textcounter', base.checkLimits).trigger('click.textcounter');
+            base.$el.bind('keyup.textcounter click.textcounter blur.textcounter focus.textcounter change.textcounter paste.textcounter', base.checkLimits);
 
             // TextCounter: init(el) Callback
             base.options.init(base.el);
