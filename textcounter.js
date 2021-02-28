@@ -162,17 +162,6 @@
                     base.clearErrors('max');
                 }
             }
-
-            // hide the counter if it doesn't meet either the minimum or maximum display cutoff
-            if  (base.options.minDisplayCutoff == -1 && base.options.maxDisplayCutoff == -1) {
-                base.$container.show();
-            } else if (textCount <= base.options.min + base.options.minDisplayCutoff) {
-                base.$container.show();
-            } else if (base.options.max !== -1 && textCount >= base.options.max - base.options.maxDisplayCutoff) {
-                base.$container.show();
-            } else {
-                base.$container.hide();
-            }
         };
 
         base.textCount = function(text) {
