@@ -4,6 +4,8 @@
 *
 * Copyright 2014 ractoon
 * Released under the MIT license
+*
+* Forked by Tableau Software LLC, 2021.
 */
 ;(function($) {
     $.textcounter = function(el, options) {
