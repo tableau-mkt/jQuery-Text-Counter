@@ -1,0 +1,17 @@
+{
+  "name": "tableau-mkt/jquery-text-counter",
+  "description": "jQuery Text Counter Tableau Fork",
+  "type": "drupal-library",
+  "keywords": [
+
+  ],
+  "homepage": "https://github.com/tableau-mkt/jQuery-Text-Counter",
+  "license": "MIT",
+  "authors": [
+    "ractoon"
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "oomphinc/composer-installers-extender": "^1.1"
+  }
+}
